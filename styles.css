@@ -1,0 +1,68 @@
+/* ---------------------------
+          defauld values
+
+font:Oswald, sans-serif
+color:
+Blue : #2C3E50
+Red  : #E74C3C
+---------------------------*/
+/*--------------------------
+         basic proberties
+--------------------------*/
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body{
+  font-family: "Oswald", sans-serif;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1400px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+/*--------------------------
+         basic proberties
+--------------------------*/
+body{
+  background-color: #2C3E50;
+}
+
+header h1{
+  padding: 1.5rem 0;
+  text-align: center;
+  color: #2C3E50;
+}
+header h1 span{
+  color: #E74C3C;
+}
+
+/*--------------------------
+         Navbar proberties
+--------------------------*/
+.nav-menu{
+  text-align: center;
+  background-color: #fafafa;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+}
+
+.nav-menu a{
+  color: #2C3E50;
+  padding: 0.5rem;
+}
+
+.nav-menu a:hover{
+  color:#E74C3C;
+
+}
