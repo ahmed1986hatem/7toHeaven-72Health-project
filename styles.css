@@ -54,7 +54,7 @@ header h1 span{
   text-align: center;
   background-color: #fafafa;
   text-transform: uppercase;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
 }
 
 .nav-menu a{
@@ -65,4 +65,74 @@ header h1 span{
 .nav-menu a:hover{
   color:#E74C3C;
 
+}
+/*--------------------------
+         About Section proberties
+--------------------------*/
+
+.about{
+  text-align: left;
+  padding: 0 3.5%;
+}
+
+.about h2{
+  font-weight: 300;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #E74C3C;
+  margin:1.5rem 0;
+
+}
+
+.about p{
+  font-weight: 400;
+  color: #2C3E50;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.about a{
+  font-size: 1rem;
+  color: #E74C3C;
+  margin: 3rem 0;
+
+}
+
+.about a:hover{
+  color: #2C3E50;
+}
+
+
+/*--------------------------
+         food Show Section proberties
+--------------------------*/
+.show-food{
+  text-align: left;
+  padding: 0 3.5%;
+  margin-top: 3rem;
+}
+
+.food{
+  background-color: #2C3E50;
+  width: 100%;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.food:nth-child(2){
+  background-color: #E74C3C;
+}
+
+/* .food img{
+  height: 100%;
+} */
+
+.food-text{
+  padding: 2rem 1rem;
+  color: #fff;
+}
+.food-text h2{
+  font-weight: 400;
+}
+.food-text p{
+  font-weight: 300;
 }
